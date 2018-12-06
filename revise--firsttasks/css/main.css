@@ -1,0 +1,30 @@
+/* styles grid */
+ul {
+  font-family: 'Futura', arial, sans-serif;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  /* grid-gap: 1em; */
+  margin: 0 auto;
+  max-width: 64em;
+  padding: 1em;
+
+}
+
+/* makes grid appear */
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin-left: 0;
+  border: thin solid;
+  padding: 1.5em;
+}
+
+/* styling done for weekday text */
+ul.weekdays abbr[title] {
+  font-family: 'Futura', arial, sans-serif;
+  border: none;
+  font-weight: 800;
+  text-decoration: none;
+}
