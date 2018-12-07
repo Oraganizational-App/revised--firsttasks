@@ -1,3 +1,34 @@
+body {
+  background-color: #fcfaf0;
+}
+
+h1 {
+  background-color: #2f3d4a;
+  color: white;
+  padding: 1em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  font-family: 'Futura', arial, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Futura', arial, sans-serif;
+  font-size: 2em;
+  text-align: center;
+}
+
+hr {
+  width: 30%;
+  border: solid black thin;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 3em; */
+  margin-bottom: 3em;
+}
+
 /* styles grid */
 ul {
   font-family: 'Futura', arial, sans-serif;
@@ -5,8 +36,9 @@ ul {
   grid-template-columns: repeat(7, 1fr);
   /* grid-gap: 1em; */
   margin: 0 auto;
-  max-width: 64em;
+  max-width: 90%;
   padding: 1em;
+  background-color: white;
 
 }
 
@@ -19,12 +51,47 @@ li {
   margin-left: 0;
   border: thin solid;
   padding: 1.5em;
+  /* background-color: white; */
 }
 
 /* styling done for weekday text */
 ul.weekdays abbr[title] {
   font-family: 'Futura', arial, sans-serif;
   border: none;
-  font-weight: 800;
+  /* font-weight: bold; */
   text-decoration: none;
+  /* max-width: 60em; */
+}
+
+.logo{
+  width: 20%;
+  display: block;
+  margin-top: 4em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lastMonth {
+  color: white;
+  border: thin solid black;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: .5em;
+
+}
+
+.addTsk{
+font-family: 'Futura', georgia, sans-serif;
+font-size: 1.5em;
+display: block;
+/* margin-right: 1em; */
+width: 100%;
+padding: 1.5em;
+background-color: #2f3d4a;
+position: absolute;
+bottom: 0;
 }
