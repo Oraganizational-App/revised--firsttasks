@@ -8,18 +8,18 @@ This is the code for the simplified app we're working on
   - Calendar page
   
 ## HTML
-- All tasks page
+- All tasks page (FIRSTS TASK.HTML)
   - this page will showcase all the tasks the user has
   - colours indicating the task each category is in
   - a checkbox/crossed out word indicating if that task is complete or not
   - a star icon indicating importance of task
   - an icon that allows you to edit tasks
   
-- Add/Editing Tasks
+- Add/Editing Tasks (ADD TASK.HTML)
   - add a task and indicate which category it falls under
   - edit a task
   
-- Calendar Page
+- Calendar Page (CALENDAR.HTML)
   - gird that showcases the month of december
   - a dot with a number indicating how many tasks there are for the day
   - when clicking on the day it brings you to the all tasks page, showing you how many tasks you have
