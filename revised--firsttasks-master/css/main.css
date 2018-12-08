@@ -1,0 +1,181 @@
+body {
+  background-color: #fcfaf0;
+  /* margin:0;
+  padding:0;
+  font-family: 'Futura', arial, sans-serif;
+  color: #222; */
+}
+}
+
+h1 {
+  background-color: #2f3d4a;
+  color: white;
+  padding: 1em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  font-family: 'Futura', arial, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+h2 {
+  font-family: 'Futura', arial, sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: normal;
+}
+
+hr {
+  width: 40%;
+  border: solid black thin;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 3em; */
+  margin-bottom: 3em;
+}
+
+/* styles grid */
+ul {
+  font-family: 'Futura', arial, sans-serif;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  /* grid-gap: 1em; */
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 1em;
+  background-color: white;
+
+}
+
+/* makes grid appear */
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin-left: 0;
+  border: thin solid;
+  padding: 1.5em;
+  /* background-color: white; */
+}
+
+/* styling done for weekday text */
+ul.weekdays abbr[title] {
+  font-family: 'Futura', arial, sans-serif;
+  border: none;
+  /* font-weight: bold; */
+  text-decoration: none;
+  /* max-width: 60em; */
+}
+
+.logo{
+  width: 30%;
+  display: block;
+  margin-top: 4em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lastMonth {
+  color: white;
+  border: thin solid black;
+}
+
+
+/* Firsts Tasks CSS page */
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: .5em;
+
+}
+
+.addTsk{
+font-family: 'Futura', georgia, sans-serif;
+font-size: 1.5em;
+display: block;
+/* margin-right: 1em; */
+width: 100%;
+padding: 1.5em;
+background-color: #2f3d4a;
+position: absolute;
+bottom: 0;
+}
+
+
+.task-list{
+  list-style: none;
+  margin-left: 2em;
+  text-align: left;
+  font-size: 1em;
+
+}
+
+
+/* Home tasks */
+.fix1 {
+  background-color: #9a81bb;
+  padding: 0.5em;
+  margin: 1em;
+  display: block;
+  margin-right: auto;
+
+}
+
+
+/* Work Tasks */
+.fix2 {
+  background-color: #52a580;
+  padding: 0.5em;
+  margin: 1em;
+  display: block;
+  margin-right: auto;
+}
+
+
+/* School Tasks */
+.fix3 {
+  background-color: #84a0d2;
+  padding: 0.5em;
+  margin: 1em;
+  display: block;
+  margin-right: auto;
+}
+
+.checkbox {
+  margin-bottom: 2em;
+  text-align: right;
+  height: 2em;
+  width: 2em;
+  background-color: blue;
+
+}
+
+
+.btns {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #2f3d4a;
+}
+
+.btns a {
+  float: left;
+  display: block;
+  text-align: center;
+  /* padding: 14px 16px; */
+  text-decoration: none;
+  font-size: 2em;
+}
+
+/* Home Button */
+.btn1 {
+  width: 100%;
+  border: none;
+  bottom: 0;
+}
