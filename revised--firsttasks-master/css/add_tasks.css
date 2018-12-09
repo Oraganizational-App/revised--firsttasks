@@ -15,20 +15,12 @@ body{
   text-align: center;
   font-size:30px;
   border:0px;
-  height: 100px;
+  height: 50px;
+  font-size:1.8em;
 }
-p{
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  font-size:30px;
-  position: relative;
-  bottom: 80px;
-  margin: 0;
 
-}
-.button {
-  background-color: #607D8B; /* Green */
+.button { /*Header button*/
+  background: none;
   border: none;
   color: white;
   padding: 10px 25px;
@@ -37,9 +29,9 @@ p{
   display: inline-block;
   font-size: 20px;
   right:100px;
-  position: fixed;
-  top: 20px;
-  right: 20px;
+  position: absolute;
+  top: 1px;
+  right: -10px;
 
 }
 
@@ -53,7 +45,7 @@ input[type=text], select {
   box-sizing: border-box;
 }
 
-input[type=submit] {
+input[type=submit] { /*Add task button*/
   width: 100%;
   background-color: #4CAF50;
   color: white;
@@ -62,8 +54,22 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  position: absolute;
+  top:85%;
 }
 
+.cancelbtn{
+  width: 100%;
+  background-color: none;
+  color: red;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-color: red;
+  border-radius: 4px;
+  cursor: pointer;
+  position: absolute;
+  top:90%;
+}
 input[type=submit]:hover {
   background-color: #45a049;
 }
@@ -84,6 +90,7 @@ div {
 }
 .task_description{
   width: 100%;
+  height: 175px;
   padding: 12px 20px;
   margin: 8px 0;
   border: 1px solid #ccc;
