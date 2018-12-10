@@ -138,7 +138,7 @@ width: 100%;
 padding: 1.5em;
 background-color: #2f3d4a;
 position: absolute;
-bottom: 0;
+margin-bottom: 500px;
 color: white;
 }
 
@@ -206,9 +206,56 @@ color: white;
   display: grid;
   grid-template-columns:20% 20% 20% 20% 20%;
 
+}
+.calendarnav {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns:20% 20% 20% 20% 20%;
 
 }
-
+.calendarbtn1{
+  background-color: #9A81BB;
+  color: white;
+  padding: 40px 75px;
+  font-size: 40px;
+  border:none;
+  position:relative;
+}
+.calendarbtn2{
+  background-color: #D6D671;
+  color: white;
+  padding: 40px 75px;
+  font-size: 40px;
+  border:none;
+  position:relative;
+}
+.calendarbtn3{
+  background-color: #2F3D4A;
+  color: white;
+  padding: 40px 75px;
+  font-size: 40px;
+  border:none;
+  position:relative;
+}
+.calendarbtn4{
+  background-color: #52A580;
+  color: white;
+  padding:40px 75px;
+  font-size: 40px;
+  border:none;
+  position:relative;
+}
+.calendarbtn5{
+  background-color: #85A0D2;
+  color: white;
+  padding: 40px 75px;
+  font-size: 40px;
+  border:none;
+  position:relative;
+}
 .btn1 {
   background-color: #9A81BB;
   color: white;
