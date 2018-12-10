@@ -1,0 +1,269 @@
+body {
+  background-color: #fcfaf0;
+
+}
+
+
+
+.pageTitle {
+  background-color: #2f3d4a;
+  color: white;
+  padding: 1em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  font-family: 'Futura', arial, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+h2 {
+  font-family: 'Futura', arial, sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: normal;
+}
+
+hr {
+  width: 40%;
+  border: solid black thin;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5em;
+}
+
+
+a {
+  text-decoration: none;
+  padding: 1em;
+}
+
+
+/* styles grid */
+ul {
+  font-family: 'Futura', arial, sans-serif;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  /* grid-gap: 1em; */
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 1em;
+  background-color: white;
+
+}
+
+/* makes grid appear */
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin-left: 0;
+  /* border: thin solid; */
+  padding: 1.5em;
+  /* background-color: white; */
+}
+
+/* styling done for weekday text */
+ul.weekdays abbr[title] {
+  font-family: 'Futura', arial, sans-serif;
+  border: none;
+  /* font-weight: bold; */
+  text-decoration: none;
+  /* max-width: 60em; */
+}
+
+abbr {
+  font-weight: bold;
+  font-size: 1.2
+}
+
+.container {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.logo{
+  width: 30%;
+  display: block;
+  margin-top: 4em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lastMonth {
+  color: white;
+}
+
+.day{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin-left: 0;
+  border: thin solid;
+  padding: 1.5em;
+  background-color: transparent;
+  font-family: 'Futura', arial, sans-serif;
+  font-size: 1em;
+}
+
+
+/* Firsts Tasks CSS page */
+
+a.day {
+  color: black;
+  text-decoration: none;
+  /* padding: .5em; */
+}
+
+.add {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  style: none;
+  margin-bottom: 1em;
+}
+
+
+.addTsk{
+font-family: 'Futura', georgia, sans-serif;
+font-size: 1.5em;
+display: block;
+/* margin-right: 1em; */
+width: 100%;
+padding: 1.5em;
+background-color: #2f3d4a;
+position: absolute;
+bottom: 0;
+color: white;
+}
+
+
+.task-list{
+  list-style: none;
+  margin-left: 2em;
+  text-align: left;
+  font-size: 1em;
+  overflow: scroll;
+  margin-bottom: .8em;
+  font-family: 'Futura', georgia, sans-serif;
+
+}
+
+
+/* Home tasks */
+.fix1 {
+  background-color: #9a81bb;
+  padding: 0.5em;
+  margin: 1em;
+  display: block;
+  margin-right: auto;
+  background-size: 25%;
+
+}
+
+
+/* Work Tasks */
+.fix2 {
+  background-color: #52a580;
+  padding: 0.5em;
+  margin: 1em;
+  display: block;
+  margin-right: auto;
+}
+
+
+/* School Tasks */
+.fix3 {
+  background-color: #84a0d2;
+  padding: 0.5em;
+  margin: 1em;
+  display: block;
+  margin-right: auto;
+}
+
+.checkbox {
+  margin-bottom: 2em;
+  text-align: right;
+  height: 2em;
+  width: 2em;
+  background-color: white;
+
+}
+
+
+/* Bottom navigation */
+
+.nav {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns:20% 20% 20% 20% 20%;
+
+
+}
+
+.btn1 {
+  background-color: #9A81BB;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  border:none;
+  position:absolute;
+}
+
+.btn2{
+  background-color: #D6D671;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  border:none;
+}
+.btn3{
+  background-color: #2F3D4A;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  border:none;
+
+}
+.btn4{
+  background-color: #52A580;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  border:none;
+
+}
+.btn5{
+  background-color: #85A0D2;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  border:none;
+
+}
+
+.home {
+  background-color: #9a81bb;
+  border-style: none;
+}
+
+.work {
+  background-color: #52a580;
+  border-style: none;
+
+}
+
+.school {
+  background-color: #84a0d2;
+  border-style: none;
+}
+
+/* Bottom Navigation ^^^^ */
