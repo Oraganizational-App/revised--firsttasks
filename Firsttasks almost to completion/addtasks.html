@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Edit pages</title>
+
+  <link rel="stylesheet" href="css/addtasks.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+
+  <body>
+
+  <h1 class="header">New Task</h1>
+
+  <button class="button">Done</button>
+
+
+  <div>
+    <form action="/action_page.php">
+      <label for="tasks">Write your task</label>
+      <input type="text" id="fname" name="firstname" placeholder="Write task...">
+      <p1>Task Description</p1>
+      <textarea class="task_description"></textarea>
+
+      <label for="categories">Choose a category</label>
+      <select id="categories" name="categories" placeholder="Choose a category">
+        <option value="Home">Home</option>
+        <option value="Home">Home</option>
+        <option value="School">School</option>
+        <option value="Work">Work</option>
+        <option value="Other">Other</option>
+      </select>
+      <input class="date" type="date" value="Enter Date here">
+
+
+    </form>
+
+  </div>
+  <input type="submit" value="Add task">
+  <button class="cancelbtn" type="button"><b>Cancel</b></button>
+
+
+
+
+  </body>
+</html>

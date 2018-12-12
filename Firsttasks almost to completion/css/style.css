@@ -1,0 +1,99 @@
+
+
+body {
+  margin:0;
+  padding:0;
+  font-family: 'Futura', arial, sans-serif;
+  color: #222;
+}
+
+.main-heading {
+  font-family: 'Ubuntu', impact, sans-serif;
+  font-size: 1.25em;
+  color: #fff;
+  line-height: 2;
+  text-align: center;
+  text-shadow: 1px 1px 0px black;
+}
+
+.logo{
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 16px;
+  text-align: center;
+text-decoration: underline;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+  background-color: #2f3d4a;
+  padding: 1em;
+  color: white;
+}
+
+.task-list{
+  list-style: none;
+  margin-left: 2em;
+  text-align: left;
+  font-size: 17px;
+
+}
+
+.fix1 {
+  background-color: #9a81bb;
+  padding: 0.5em;
+  margin: 1em;
+}
+
+.fix2 {
+  background-color: #52a580;
+  padding: 0.5em;
+  margin: 1em;
+}
+
+.fix3 {
+  background-color: #84a0d2;
+  padding: 0.5em;
+  margin: 1em;
+}
+
+.checkbox {
+  margin-bottom: 2em;
+  text-align: right;
+  height: 25px;
+  width: 25px;
+  background-color: blue;
+
+}
+
+
+.btns {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.btns a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+.btn1 {
+  width: 100%;
+  border: none;
+  bottom: 0;
+
+}
