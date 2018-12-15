@@ -1,0 +1,8 @@
+{
+  "name": "FirstTask",
+  "theme_color": "#2f3d4a",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/"
+}
